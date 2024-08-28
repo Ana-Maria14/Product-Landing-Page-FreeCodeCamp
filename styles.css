@@ -1,0 +1,177 @@
+#header-img{
+    height: 20px;
+    width: 20px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+    #header-div{
+    background-color: #D1E9F6;
+    padding-bottom: 2%;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left:0;
+}
+nav{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}   
+nav a{
+    padding-left: 1em;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+#form{
+    text-align: center;
+    margin-top: 3%;
+}
+form p{
+    font-size: 1.6rem;
+}
+form #submit{
+    margin-top: 1%;
+    width: 15%;
+    font-size: 1rem;
+    padding: 0.5%;
+    background-color: #7695FF;
+    color: white;
+    border: 0;
+}
+form #email{
+    width: 25%;
+    padding: 1%;
+    margin-top: 1.5rem;
+    
+}
+input::placeholder{
+    font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 15px; /* Default font size */
+    }
+    form #email{
+        width: 35%;
+    }
+    form #submit{
+        width: 25%;
+    }
+}
+
+@media (max-width: 480px)  {
+    html {
+        font-size: 13px; /* Default font size */
+    }
+    form #email{
+        width: 45%;
+        padding: 1.5%;
+    }
+    form #submit{
+        width: 35%;
+    }
+}
+#features{
+    padding-left: 10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: 10%;
+    width: 80%;
+}
+#features p{
+    margin-bottom: 3%;
+    font-size: 1.1rem;
+}
+#video-div{
+    text-align: center;
+    background-color: #125B9A;
+    padding: 5%;
+    height: auto;
+}
+#video-div p{
+    margin-bottom: 3%;
+    font-size: 1.1rem;
+    color: whitesmoke;
+}
+#price1, #price2, #price3{
+    display: inline-block;
+    background-color: #9DBDFF;
+    border-color: black;
+    padding: 2%;
+    font-size: 1rem;
+    margin-top: 7%;
+    text-align: center;
+    padding-top: 0%;
+    width: 15%;
+    border: 1px solid black;
+    line-height: 100%;
+}
+#pricing{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#course-title{
+    padding-bottom: 5%;
+    font-weight: bold;
+}
+#pricing button{
+    background-color: darkblue;
+    color: white;
+    border: 0;
+}
+#price1{
+    margin-left: 10%;
+}
+#price3{
+    margin-right: 10%;
+}
+#number{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#contact{
+    background-color: #D1E9F6;
+    width: 100%;
+    margin-top: 5%;
+    padding: 3%;
+    font-size: 1rem;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    font-size: 100%;
+    width: 100%;
+}
+iframe {
+    width: 50vw;
+    height: 50vh;
+}
+@media only screen and (max-width: 600px) {
+    #price1, #price2, #price3{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 7%;
+        margin-bottom: 3%;
+    }
+    #pricing{
+        width: 100%;
+        display: flex;
+       flex-direction: column;
+    }
+    #video{
+      width: 70%;
+      height: 55%;
+    }
+  }
